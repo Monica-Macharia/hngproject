@@ -8,6 +8,7 @@ import Team from './Team.js';
 import Twitter from './Twitter.js';
 import Socials from './Socials.js';
 
+
 function App() {
   return (
     <div className="App">
@@ -20,15 +21,17 @@ function App() {
           {/* <h2 id='slack'>Moni</h2> */}
         </p>
        </header> 
-      
+      <div className= "links">
        <Twitter />  
        <Team />
        <Books/>
        <Python />
        <Background/>
       <Design />
+      </div>
       <Socials />
       <Footer />
+      
      
      
     
