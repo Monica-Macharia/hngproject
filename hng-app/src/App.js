@@ -25,6 +25,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <Background/>
+      <Books/>
+      <Design />
+      <Footer />
+      <Profile />
+      <Python />
+      <Team />
+      <Twitter />
     </div>
   );
 }
