@@ -6,10 +6,12 @@ import Footer from './Footer.js';
 import Python from './Python.js';
 import Team from './Team.js';
 import Twitter from './Twitter.js';
+import Socials from './Socials.js';
 
 function App() {
   return (
     <div className="App">
+       <img id ='arrow__img' src= {window.location.origin + '/back.png'} alt="arrow" />
       <header className="App-header">
         <img id ='profile__img' src= {window.location.origin + '/me.jpg'} alt="logo" />
         <p>
@@ -25,6 +27,7 @@ function App() {
        <Python />
        <Background/>
       <Design />
+      <Socials />
       <Footer />
      
      
