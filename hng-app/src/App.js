@@ -11,10 +11,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img className = 'profile' src= {window.location.origin + '/me.jpg'} alt="logo" />
+        <img id ='profile__img' src= {window.location.origin + '/me.jpg'} alt="logo" />
         <p>
           
-          <h2>Monica Macharia</h2>
+          <h2 id='twitter'>Macharia Nyaguthii</h2>
+          {/* <h2 id='slack'>Moni</h2> */}
         </p>
        </header> 
       

@@ -1,6 +1,8 @@
 function Twitter(){
     return(
-        <div>Twitter</div>
+        
+        
+        <a href="https://twitter.com/Nyaguthii_MC"><button id= "btn_twitter"> Twitter Link</button></a>
     )
 }
 export default Twitter;
