@@ -3,7 +3,6 @@ import Background from './Background.js';
 import Books from './Books.js';
 import Design from './Design.js';
 import Footer from './Footer.js';
-import Profile from './Profile.js';
 import Python from './Python.js';
 import Team from './Team.js';
 import Twitter from './Twitter.js';
@@ -17,23 +16,19 @@ function App() {
           
           <h2>Monica Macharia</h2>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Background/>
-      <Books/>
+       </header> 
+      
+       <Twitter />  
+       <Team />
+       <Books/>
+       <Python />
+       <Background/>
       <Design />
       <Footer />
-      <Profile />
-      <Python />
-      <Team />
-      <Twitter />
+     
+     
+    
+     
     </div>
   );
 }
