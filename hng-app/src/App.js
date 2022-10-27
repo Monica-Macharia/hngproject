@@ -1,5 +1,5 @@
 import './App.css';
-import Background from './Backgroung.js';
+import Background from './Background.js';
 import Books from './Books.js';
 import Design from './Design.js';
 import Footer from './Footer.js';
@@ -12,9 +12,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img className = 'profile' src= {window.location.origin + '/me.jpg'} alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
+          <h2>Monica Macharia</h2>
         </p>
         <a
           className="App-link"
