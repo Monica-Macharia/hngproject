@@ -1,6 +1,8 @@
 function Books(){
     return(
-        <a href="http://books.zuri.team"><button id= "books"> Zuri Books</button></a>
+        
+        
+        <a id= "books" href="http://books.zuri.team"><p className = "naming">Zuri Books</p></a>
     )
 }
 export default Books;

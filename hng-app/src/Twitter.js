@@ -2,7 +2,7 @@ function Twitter(){
     return(
         
         
-        <a href="https://twitter.com/Nyaguthii_MC"><button id= "btn_twitter"> Twitter Link</button></a>
+        <a id= "btn_twitter" href="https://twitter.com/Nyaguthii_MC"><p className = "naming">Twitter Link</p></a>
     )
 }
 export default Twitter;

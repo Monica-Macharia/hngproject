@@ -1,7 +1,7 @@
 function Team(){
     return(
 
-        <a href="https://training.zuri.team/"><button id= "btn_zuri"> Zuri Team</button></a>
+        <a id= "btn__zuri" href="https://training.zuri.team/"> <p className = "naming">Zuri Team</p></a>
     )
 }
 export default Team;

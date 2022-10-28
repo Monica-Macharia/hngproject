@@ -12,6 +12,9 @@ img#profile__img{
   border-radius: 50%;
 
 }
+p.naming{
+  text-align: center;
+}
 h2#twitter{
 font-family: 'Inter';
 font-style: normal;
@@ -19,18 +22,190 @@ font-weight: 700;
 font-size: 20px;
 line-height: 30px;
 }
-button{
- 
-  width:70%;
+/* a#btn_twitter{
+  text-align: center;
+  width:500%;
   height: 76px;
- /* position: relative; */
- padding-left: 144px;
- padding-right: 144px;
- margin-top: 28px;
- background-color: #EAECF0;
- border: 1px;
-  
+} */
+a#btn__zuri:hover {
+  background-color: #D0D5DD;
 }
+a#btn__zuri{
+  text-align: center;
+  /* width: 150%; */
+  height: 70px;
+  /* size: 500px; */
+  width: 33%;
+ 
+  /* height: 706px; */ 
+  background-color: #EAECF0;
+  color: black;
+  text-decoration-line: none;
+  padding-left: 27%; 
+  
+  /* padding-top: 1%; */
+ 
+ /* padding-right: 30%;  */
+ margin-top: 28px;
+ 
+ margin-left: 20%;
+ margin-right: 20%;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+display: flex;
+
+
+
+}
+a#btn_twitter:hover {
+  background-color: #D0D5DD;
+}
+a#btn_twitter{
+  
+    text-align: center;
+    
+    /* width: 150%; */
+    height: 70px;
+   
+  
+  width: 33%;
+   background-color: #EAECF0;
+  color: black;
+  text-decoration-line: none;
+  padding-left: 27%; 
+  margin-top: 28px;
+ margin-left: 20%;
+ margin-right: 20%;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+a#books:hover {
+  background-color: #D0D5DD;
+}
+a#books{
+  text-align: center;
+  /* width: 150%; */
+  height: 70px;
+  width: 33%;
+  /* height: 706px; */ 
+  background-color: #EAECF0;
+  color: black;
+  text-decoration-line: none;
+  padding-left: 27%; 
+ 
+ /* padding-right: 30%;  */
+ margin-top: 28px;
+ margin-left: 20%;
+ margin-right: 20%;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+display: flex;
+align-items: center;
+
+
+}
+a#pitch:hover {
+  background-color: #D0D5DD;
+}
+a#pitch{
+  text-align: center;
+  /* width: 150%; */
+  height: 70px;
+  width: 33%;
+  /* height: 706px; */ 
+  background-color: #EAECF0;
+  color: black;
+  text-decoration-line: none;
+  padding-left: 27%; 
+ 
+ /* padding-right: 30%;  */
+ margin-top: 28px;
+ margin-left: 20%;
+ margin-right: 20%;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+display: flex;
+align-items: center;
+
+
+}
+a#book__design:hover {
+  background-color: #D0D5DD;
+}
+a#book__design{
+  text-align: center;
+  /* width: 150%; */
+  height: 70px;
+  width: 33%;
+  /* height: 706px; */ 
+  background-color: #EAECF0;
+  color: black;
+  text-decoration-line: none;
+  padding-left: 27%; 
+ 
+ /* padding-right: 30%;  */
+ margin-top: 28px;
+ margin-left: 20%;
+ margin-right: 20%;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+a#book__python:hover {
+  background-color: #D0D5DD;
+}
+a#book__python{
+  text-align: center;
+  /* width: 150%; */
+  height: 70px;
+  width: 33%;
+  /* height: 706px; */ 
+  background-color: #EAECF0;
+  color: black;
+  text-decoration-line: none;
+  padding-left: 27%; 
+ 
+ /* padding-right: 30%;  */
+ margin-top: 28px;
+ margin-left: 20%;
+ margin-right: 20%;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+display: flex;
+align-items: center;
+
+
+}
+div.links{
+  text-align: center;
+}
+
+
 img#slackicon{
   max-width: 15px;
   padding-right: 10px;
@@ -55,16 +230,16 @@ div.footer{
   margin-top: 4%;
 }
 img.zuriname{
-  padding-left: 15%;
+  padding-left: 20%;
 }
 p.internship{
-  margin-left:  15%;
+  margin-left: 10%;
   margin-top: 1%
 }
 img.good{
-  margin-left: 17%;
+  margin-left: 11%;
 }
-button:hover {
+a:hover {
   background-color: #D0D5DD;
 }
 

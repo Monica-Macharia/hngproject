@@ -2,7 +2,7 @@
 
 function Background(){
     return(
-        <a href="https://background.zuri.team"><button id= "pitch"> Background Check For Coders</button></a>
+        <a id= "pitch" href="https://background.zuri.team"><p className = "naming"> Background Check For Coders</p></a>
     )
 }
 export default Background;
