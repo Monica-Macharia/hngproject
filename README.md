@@ -5,6 +5,7 @@ It is a profile showcasing various activities I am enganged i currently. Each li
 Languages used:
 Reactjs
 Css
+A live link to the project in Vercel: https://stageoneredo-ki5sbe6mb-monica-macharia.vercel.app/
 
 Fork and clone the repo for contributions.
 Thank you.
