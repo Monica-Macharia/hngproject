@@ -21,9 +21,9 @@ line-height: 30px;
 }
 button{
  
-  width: 1152px;
+  width:70%;
   height: 76px;
- position: relative;
+ /* position: relative; */
  padding-left: 144px;
  padding-right: 144px;
  margin-top: 28px;
@@ -52,23 +52,25 @@ height: 32px;
 }
 div.footer{
   display: flex;
-  margin-top: 100px;
+  margin-top: 4%;
 }
 img.zuriname{
-  padding-left: 144px;
+  padding-left: 15%;
 }
 p.internship{
-  margin-left:  250px;
-  margin-top: 5px
+  margin-left:  15%;
+  margin-top: 1%
 }
 img.good{
-  margin-left: 350px;
+  margin-left: 17%;
 }
 button:hover {
   background-color: #D0D5DD;
 }
 
-
+h2#slack{
+  display: none;
+}
 
 /* 
 .App-logo {

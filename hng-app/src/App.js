@@ -18,7 +18,7 @@ function App() {
         <p>
           
           <h2 id='twitter'>Macharia Nyaguthii</h2>
-          {/* <h2 id='slack'>Moni</h2> */}
+          <h2 id='slack'>Moni</h2>
         </p>
        </header> 
       <div className= "links">
